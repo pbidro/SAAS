@@ -1,0 +1,17 @@
+// abstract 
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+// vendors 
+@import 'vendors/bootstrap-5.1.0/scss/bootstrap';
+// base 
+@import 'base/typography';
+@import 'base/reset';
+
+// layout 
+
+// components 
+@import 'components/author-thumbnail';
+@import 'components/author-description';
+// pages 
+
+// themes 

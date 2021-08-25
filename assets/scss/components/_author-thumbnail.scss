@@ -1,0 +1,7 @@
+.author__thumbnail {
+    @include center-element-flex;
+    img{
+        border-radius: 50%;
+    }
+
+}

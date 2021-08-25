@@ -1,0 +1,13 @@
+@mixin center-element-flex {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@mixin large-breakpoint {
+
+    @media (max-width: $breakpoint-lg){
+        @content;
+    } 
+
+}
