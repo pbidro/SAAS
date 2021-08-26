@@ -2,11 +2,11 @@
     
     @include center-element-flex;
     @include large-breakpoint{
-        color:red;
+        display: none;
     }
 
     p{
         font-weight: 300;
         line-height: 2;
     }
-}
+}   

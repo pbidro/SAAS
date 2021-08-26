@@ -8,10 +8,15 @@
 @import 'base/reset';
 
 // layout 
+@import 'layout/author';
+@import 'layout/pagination';
 
 // components 
 @import 'components/author-thumbnail';
 @import 'components/author-description';
-// pages 
+@import 'components/author-name';
+@import 'components/pagination-interface';
+
+// pages  
 
 // themes 

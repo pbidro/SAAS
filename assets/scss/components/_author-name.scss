@@ -1,0 +1,39 @@
+.author__links {
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.author__name {
+    padding:0px;
+
+    @include center-element-flex;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.author__list {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include large-breakpoint{
+        padding:0px;
+        text-align: center;
+    }
+
+}
+
+.author__link {
+    text-decoration: none;
+    color:$spanish-pink;
+    &--hover:hover{
+        color:$nickel;
+    }
+
+    &--active:active{
+        color:$platinum;
+    }
+}
