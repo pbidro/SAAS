@@ -1,7 +1,11 @@
 .author__thumbnail {
-    @include center-element-flex;
+    text-align: center;
     img{
         border-radius: 50%;
     }
-
+    @include large-breakpoint{
+        img{
+            width: 166px;
+        }
+    }
 }

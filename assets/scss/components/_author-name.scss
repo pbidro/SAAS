@@ -2,18 +2,21 @@
     padding: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .author__name {
     padding:0px;
-
-    @include center-element-flex;
     font-style: italic;
     font-weight: 900;
+
+    @include large-breakpoint{
+        text-align: center;
+    }
+
 }
 
 .author__list {
-    
+    padding:0px;
+
     list-style: none;
     display: flex;
     flex-direction: column;

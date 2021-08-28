@@ -8,10 +8,13 @@
 @import 'base/reset';
 
 // layout 
+@import 'layout/header';
 @import 'layout/author';
 @import 'layout/pagination';
 
 // components 
+@import 'components/header__text';
+@import 'components/header__icon';
 @import 'components/author-thumbnail';
 @import 'components/author-description';
 @import 'components/author-name';

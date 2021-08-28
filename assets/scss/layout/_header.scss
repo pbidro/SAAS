@@ -1,0 +1,15 @@
+
+header{
+    height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url(/assets/images/post-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    @include large-breakpoint{
+        height: 50vh;
+        }
+    text-align: center;
+}

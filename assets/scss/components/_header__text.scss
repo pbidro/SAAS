@@ -1,0 +1,16 @@
+
+
+.header__text{
+    margin:0 auto;
+    color:white ;
+    font-style: italic;
+    
+    font-size:$xx-large;
+    font-weight: $f-black;
+    @include large-breakpoint{
+        font-size:$x-large;
+        width:80%;
+    }
+
+    
+}

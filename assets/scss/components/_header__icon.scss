@@ -1,0 +1,15 @@
+.header__icon{
+
+color:$platinum;
+font-size:$icon-size;
+padding-top:380px;
+
+
+@include large-breakpoint{
+    padding-top:80px;
+
+}
+
+
+
+}
